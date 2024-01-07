@@ -4,67 +4,63 @@
    <Group
       location = "group:CargoBay"
       name = "CargoBay">
-      <Group
-         location = "group:AFNet"
-         name = "AFNet">
-         <FileRef
-            location = "group:AFSecurityPolicy.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFNetworkReachabilityManager.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFHTTPRequestOperation.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFHTTPRequestOperationManager.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLSessionManager.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLRequestSerialization.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLConnectionOperation.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLResponseSerialization.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFHTTPSessionManager.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLConnectionOperation.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLResponseSerialization.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLSessionManager.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFHTTPRequestOperationManager.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFURLRequestSerialization.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFHTTPRequestOperation.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFNetworking.h">
-         </FileRef>
-         <FileRef
-            location = "group:AFNetworkReachabilityManager.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFSecurityPolicy.m">
-         </FileRef>
-         <FileRef
-            location = "group:AFHTTPSessionManager.h">
-         </FileRef>
-      </Group>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFSecurityPolicy.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFNetworkReachabilityManager.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFHTTPRequestOperation.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFHTTPRequestOperationManager.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLSessionManager.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLRequestSerialization.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLConnectionOperation.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLResponseSerialization.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFHTTPSessionManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLConnectionOperation.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLResponseSerialization.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLSessionManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFHTTPRequestOperationManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFURLRequestSerialization.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFHTTPRequestOperation.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFNetworking.h">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFNetworkReachabilityManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFSecurityPolicy.m">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bozidarlabas/Documents/Projects/iOS/CargoBay/CargoBay/AFHTTPSessionManager.h">
+      </FileRef>
       <FileRef
          location = "group:CargoBay.h">
       </FileRef>

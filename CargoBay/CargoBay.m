@@ -22,8 +22,8 @@
 
 #import "CargoBay.h"
 
-#import "AFNet/AFHTTPRequestOperationManager.h"
-#import "AFNet/AFHTTPRequestOperation.h"
+#import "AFHTTPRequestOperationManager.h"
+#import "AFHTTPRequestOperation.h"
 
 #import <AssertMacros.h>
 
