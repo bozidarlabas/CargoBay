@@ -41,6 +41,9 @@
  */
 @interface CargoBay : NSObject <SKPaymentTransactionObserver>
 
+
+@property (nonatomic, strong) SKProductsRequest *productsRequest;
+
 /**
  Returns the shared CargoBay manager for the application.
  

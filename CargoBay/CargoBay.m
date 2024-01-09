@@ -338,8 +338,8 @@ BOOL CBValidateTransactionMatchesPurchaseInfo(SKPaymentTransaction *transaction,
 
     // Optionally check the requestData.
     /*
-        `transaction.payment.requestData` is reserved for future use as stated in the document (iOS 6). 
-        It is mentioned that the default value will be `nil`. 
+        `transaction.payment.requestData` is reserved for future use as stated in the document (iOS 6).
+        It is mentioned that the default value will be `nil`.
         If the value is not `nil`, it will be rejected by the Apple App Store.
       */
 
@@ -697,13 +697,14 @@ NSDictionary * CBPurchaseInfoFromTransactionReceipt(NSData *transactionReceiptDa
                         success:(void (^)(NSArray *products, NSArray *invalidIdentifiers))success
                         failure:(void (^)(NSError *error))failure
 {
-    SKProductsRequest *request = [[SKProductsRequest alloc] initWithProductIdentifiers:identifiers];
+//    SKProductsRequest *request = [[SKProductsRequest alloc] initWithProductIdentifiers:identifiers];
+    self.productsRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:identifiers];
 
     id <SKProductsRequestDelegate> delegate = [[CargoBayProductRequestDelegate alloc] initWithSuccess:success failure:failure];
-    request.delegate = delegate;
+    self.productsRequest.delegate = delegate;
 
     [CargoBayProductRequestDelegate registerDelegate:delegate];
-    [request start];
+    [self.productsRequest start];
 }
 
 - (void)productsWithRequest:(NSURLRequest *)urlRequest
@@ -1007,7 +1008,7 @@ NSDictionary * CBPurchaseInfoFromTransactionReceipt(NSData *transactionReceiptDa
             }
 
             return NO;
-        }        
+        }
     }
 #else
 #pragma unused (transaction, error)
